@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
     print("Start of \"" + sys.argv[0] + "\"")
 
-    ol = Overlay("/home/xilinx/IPBitFile/FIRN11Stream.bit")
+    ol = Overlay("/home/xilinx/jupyter_notebooks/FIRN11Stream.bit")
     ipFIRN11 = ol.fir_n11_strm_0
     ipDMAIn = ol.axi_dma_in_0
     ipDMAOut = ol.axi_dma_out_0
