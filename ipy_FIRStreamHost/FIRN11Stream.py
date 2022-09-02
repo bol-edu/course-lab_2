@@ -6,12 +6,13 @@
 
 from __future__ import print_function
 
-import sys
+import sys, os
 import numpy as np
 from time import time
 import matplotlib.pyplot as plt 
 
 sys.path.append('/home/xilinx')
+os.environ['XILINX_XRT'] = '/usr'
 from pynq import Overlay
 from pynq import allocate
 
